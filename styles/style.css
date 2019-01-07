@@ -110,20 +110,16 @@ html {
     color: #ffffff;
   }
 
-  /* .pizz {
-    padding-top: 15%;
-    padding-right: 17%;
-  } */
-
   #welcome {
     display: none;
   }
   .pate {
     display: none;
   }
+
   #welcome2 {
     display: block;
-    text-align: center;
+    padding-right: 30%;
     padding-top: 18%;
   }
 }
@@ -131,9 +127,8 @@ html {
 @media (max-width: 500px) {
   #welcome2 {
     display: block;
-    text-align: center;
     padding-top: 17%;
-    padding-right: 25%;
+    padding-right: 24%;
   }
 }
 
