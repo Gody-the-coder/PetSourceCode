@@ -68,7 +68,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding-left: 2%;
-  padding-right: 0%;
+  padding-right: 1%;
   padding-top: 5%;
   padding-bottom: 10%;
 }
@@ -124,6 +124,20 @@ html {
     display: block;
     padding-right: 30%;
     padding-top: 18%;
+  }
+
+  .icons-container {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6%;
+  }
+
+  .icon i {
+    padding-left: 35%;
+  }
+
+  .icon p {
+    padding-right: 2%;
   }
 }
 
