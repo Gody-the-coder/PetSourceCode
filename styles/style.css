@@ -82,8 +82,10 @@ html {
   color: #4cc552;
 }
 
-/* .icon {
-} */
+.icon p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #e8a317;
+}
 
 @media only screen and (max-width: 800px) {
   .hamburg {
