@@ -10,11 +10,17 @@ body {
 
 .backg {
   background: url(../media/pet1.jpg);
+  height: 290px;
+  margin-top: 40px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  height: 425px;
+  border-radius: 10px;
 }
+
+/* .content{
+
+} */
 
 .big-box {
   border: #4aa02c 10px solid;
@@ -33,4 +39,8 @@ body {
 .btn {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.adopt {
+  margin-top: 5%;
 }
