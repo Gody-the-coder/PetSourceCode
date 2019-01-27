@@ -8,7 +8,7 @@ body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-.backg {
+/* .hero {
   background: url(../media/pet1.jpg);
   height: 290px;
   margin-top: 40px;
@@ -16,11 +16,37 @@ body {
   background-position: center;
   overflow: hidden;
   border-radius: 10px;
-}
+} */
+
+/* .backg::before {
+  background-image: url(../media/pet1.jpg);
+  background-size: cover;
+  z-index: -2;
+  opacity: 0.4;
+} */
 
 /* .content{
 
 } */
+
+/* .hero{
+  background: url(../media/pet1.jpg)
+} */
+
+.hero::before {
+  background-image: url(../media/pet1.jpg);
+  background-size: 100%;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+}
 
 .big-box {
   border: #4aa02c 10px solid;
@@ -39,6 +65,10 @@ body {
 .btn {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.about {
+  padding-top: 20px;
 }
 
 .adopt {
