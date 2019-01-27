@@ -1,0 +1,36 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.backg {
+  background: url(../media/pet1.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 425px;
+}
+
+.big-box {
+  border: #4aa02c 10px solid;
+  padding: auto;
+  border-radius: 5px;
+}
+
+.big-box h5 {
+  padding-left: 20px;
+}
+
+.big-box p {
+  padding-left: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
